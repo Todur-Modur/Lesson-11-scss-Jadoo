@@ -1,26 +1,26 @@
 * {
     box-sizing: border-box;
-}
 
-body {
-    max-width: 1440px;
-    font-weight: 400;
-    font-size: 16px;
-    color: #212832;
-    font-family: poppins sans-serif;
-    background: url(../assets/decore_yellow.svg);
-    background-position: right top;
-    background-repeat: no-repeat;
-    margin: auto;
-}
+    body {
+        max-width: 1440px;
+        font-weight: 400;
+        font-size: 16px;
+        color: #212832;
+        font-family: poppins sans-serif;
+        background: url(../assets/decore_yellow.svg);
+        background-position: right top;
+        background-repeat: no-repeat;
+        margin: auto;
+    }
 
-ul {
-    list-style: none;
-    padding: 0;
-}
+    ul {
+        list-style: none;
+        padding: 0;
+    }
 
-a {
-    text-decoration: none;
+    a {
+        text-decoration: none;
+    }
 }
 
 .header {

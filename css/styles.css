@@ -2,8 +2,7 @@
 * {
   box-sizing: border-box;
 }
-
-body {
+* body {
   max-width: 1440px;
   font-weight: 400;
   font-size: 16px;
@@ -14,13 +13,11 @@ body {
   background-repeat: no-repeat;
   margin: auto;
 }
-
-ul {
+* ul {
   list-style: none;
   padding: 0;
 }
-
-a {
+* a {
   text-decoration: none;
 }
 
