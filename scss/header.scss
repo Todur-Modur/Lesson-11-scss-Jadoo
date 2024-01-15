@@ -1,0 +1,40 @@
+.header {
+    max-width: 1440px;
+    margin: 0 auto;
+
+    &__wrapper {
+        padding: 48px 200px 134px 140px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__list {
+        display: flex;
+        gap: 70px;
+        align-items: center;
+        font-size: 17px;
+        padding-left: 222px;
+    }
+
+    &_btn {
+        background: none;
+        width: 102px;
+        height: 40px;
+        border-radius: 5px;
+        border: 1px solid;
+        translate: 0px;
+        transition: translate 0.3s ease;
+
+        &:hover {
+            translate: 10px 10px;
+        }
+    }
+
+    &_en-selector {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 9px;
+    }
+}
