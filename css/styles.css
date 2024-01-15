@@ -412,6 +412,11 @@
   font-size: 14px;
   font-weight: 500;
 }
+.testimonials .comment_avatar {
+  position: relative;
+  z-index: 15;
+  margin: -340px 680px;
+}
 .testimonials .second_comment {
   width: 502px;
   height: 232px;
@@ -423,11 +428,6 @@
   position: relative;
   z-index: 5;
   margin: -170px 780px;
-}
-.testimonials .comment_avatar {
-  position: relative;
-  z-index: 15;
-  margin: -340px 680px;
 }
 .testimonials .vertical-selector {
   position: relative;

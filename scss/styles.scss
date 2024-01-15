@@ -50,10 +50,10 @@
         border: 1px solid;
         translate: 0px;
         transition: translate 0.3s ease;
-    }
 
-    &_btn:hover {
-        translate: 10px 10px;
+        &:hover {
+            translate: 10px 10px;
+        }
     }
 
     &_en-selector {
@@ -112,10 +112,10 @@
         font-size: 18px;
         font-weight: 500;
         transition: rotate 0.5s ease;
-    }
 
-    &_button:hover {
-        rotate: 360deg;
+        &:hover {
+            rotate: 360deg;
+        }
     }
 
     .play-btn {
@@ -133,11 +133,10 @@
     &_images {
         margin: -120px 0px 0px -120px;
         transition: rotate 1s ease;
-    }
 
-    &_images:hover {
-        rotate: 360deg;
-
+        &:hover {
+            rotate: 360deg;
+        }
     }
 }
 
@@ -150,11 +149,13 @@
         font-size: 18px;
         font-weight: 600;
         transition: skew 1s ease;
+
+        &:hover {
+            transform: skew(30deg, 30deg);
+        }
     }
 
-    .small_title:hover {
-        transform: skew(30deg, 30deg);
-    }
+
 
     .section_title {
         color: #14183E;
@@ -181,19 +182,19 @@
         color: #1E1D4C;
         font-size: 20px;
         font-weight: 600;
-    }
 
-    &_title_desc {
-        color: #5E6282;
-        font-weight: 500;
-        line-height: 26px;
-    }
+        &_desc {
+            color: #5E6282;
+            font-weight: 500;
+            line-height: 26px;
+        }
 
-    &_title_pad {
-        color: #1E1D4C;
-        font-size: 20px;
-        font-weight: 600;
-        margin-top: -30px;
+        &_pad {
+            color: #1E1D4C;
+            font-size: 20px;
+            font-weight: 600;
+            margin-top: -30px;
+        }
     }
 
     .plane_offer {
@@ -256,12 +257,10 @@
         justify-content: space-between;
         padding-left: 30px;
 
-    }
-
-
-    .destination_city-description {
-        text-align: center;
-        margin-top: -170px;
+        &_city-description {
+            text-align: center;
+            margin-top: -170px;
+        }
     }
 
     .city-price {
@@ -330,12 +329,12 @@
         color: #5E6282;
         font-weight: 700;
         line-height: 124.5%;
-    }
 
-    .step_title-desc {
-        color: #5E6282;
-        font-weight: 400;
-        line-height: 124.5%;
+        &-desc {
+            color: #5E6282;
+            font-weight: 400;
+            line-height: 124.5%;
+        }
     }
 
     .red-girl_section {
@@ -356,14 +355,16 @@
         font-weight: 500;
         line-height: 124.5%;
         letter-spacing: 0.27px;
+
+        &-info {
+            color: #84829A;
+            font-weight: 500;
+            line-height: 124.5%;
+            letter-spacing: -0.08px;
+        }
     }
 
-    .greece_trip-info {
-        color: #84829A;
-        font-weight: 500;
-        line-height: 124.5%;
-        letter-spacing: -0.08px;
-    }
+
 
     .red-girl_logos {
         display: flex;
@@ -375,10 +376,10 @@
     .people_going {
         display: flex;
         gap: 20px;
-    }
 
-    .people_going-heart {
-        padding-left: 130px;
+        &-heart {
+            padding-left: 130px;
+        }
     }
 
     .red-girl_ongoing {
@@ -469,25 +470,31 @@
         padding: 28px 68px 20px 34px;
         position: relative;
         z-index: 10;
-    }
 
-    .comment-text {
-        width: 402px;
-        color: #5E6282;
-        font-weight: 500;
-        line-height: 32px;
-    }
+        &-text {
+            width: 402px;
+            color: #5E6282;
+            font-weight: 500;
+            line-height: 32px;
+        }
 
-    .comment-author {
-        color: #5E6282;
-        font-size: 18px;
-        font-weight: 600;
-    }
+        &-author {
+            color: #5E6282;
+            font-size: 18px;
+            font-weight: 600;
+        }
 
-    .comment-geo {
-        color: #5E6282;
-        font-size: 14px;
-        font-weight: 500;
+        &-geo {
+            color: #5E6282;
+            font-size: 14px;
+            font-weight: 500;
+        }
+
+        &_avatar {
+            position: relative;
+            z-index: 15;
+            margin: -340px 680px;
+        }
     }
 
     .second_comment {
@@ -501,12 +508,6 @@
         position: relative;
         z-index: 5;
         margin: -170px 780px;
-    }
-
-    .comment_avatar {
-        position: relative;
-        z-index: 15;
-        margin: -340px 680px;
     }
 
     .vertical-selector {
@@ -603,15 +604,15 @@
         font-size: 44px;
         font-weight: 500;
         margin-top: -50px;
-    }
 
-    &-jadoo_desc {
-        width: 207px;
-        color: #5E6282;
-        font-size: 13px;
-        font-weight: 500;
-        line-height: 124.5%;
-        margin-top: -25px;
+        &_desc {
+            width: 207px;
+            color: #5E6282;
+            font-size: 13px;
+            font-weight: 500;
+            line-height: 124.5%;
+            margin-top: -25px;
+        }
     }
 
     &_title {
@@ -619,13 +620,13 @@
         font-size: 21px;
         font-weight: 700;
         line-height: 124.5%;
-    }
 
-    &_title_desc {
-        color: #5E6282;
-        font-size: 18px;
-        font-weight: 500;
-        line-height: 1.8;
+        &_desc {
+            color: #5E6282;
+            font-size: 18px;
+            font-weight: 500;
+            line-height: 1.8;
+        }
     }
 
     &_discover_logos {
