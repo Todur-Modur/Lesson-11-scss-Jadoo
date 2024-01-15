@@ -3,9 +3,9 @@
 
     body {
         max-width: 1440px;
-        font-weight: 400;
+        font-weight: $font-weight-text;
         font-size: 16px;
-        color: #212832;
+        color: $main-text-color;
         font-family: poppins sans-serif;
         background: url(../assets/decore_yellow.svg);
         background-position: right top;
